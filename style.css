@@ -61,49 +61,6 @@ body {
   justify-content: flex-end;
 }
 
-#weather {
-  padding: 70px 0;
-  background-image: url(https://www.infoplease.com/sites/infoplease.com/files/inline-images/planet_earth_world_satellite_image_mural_lg__67844.1560514766%281%29_0.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no repeat;
-  height: 800px;
-}
-#weather .box {
-  height: 450px;
-  width: 500px;
-  color: #ffffff;
-  background-color: #1d42b1;
-  border-radius: 20px;
-}
-#weather .box .data h1, #weather .box .data h2 {
-  margin: 20px 0;
-  font-size: 25px;
-  font-style: italic;
-}
-#weather .box .data input {
-  border: 3px solid #f9cf46;
-  padding: 5px 10px;
-  border-radius: 20px;
-}
-#weather ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  margin-top: 45px;
-}
-#weather ul .icon {
-  color: white;
-  font-size: 40px;
-}
-#weather .btn {
-  margin-top: 10px;
-  background-color: #f1d524;
-  padding: 10px;
-  color: white;
-  border-radius: 20px;
-}
-
 #apple {
   padding: 70px 0;
   height: 800px;
