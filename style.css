@@ -7,8 +7,8 @@ body {
   padding: 60px 0;
 }
 #message .chat {
-  border: 1px solid rgba(156, 173, 209, 0.5019607843);
-  background-color: rgba(156, 173, 209, 0.5019607843);
+  border: 1px solid rgba(172, 200, 255, 0.2666666667);
+  background-color: rgba(175, 199, 255, 0.3411764706);
   border-radius: 20px;
   padding: 25px;
   width: 100%;
@@ -55,44 +55,9 @@ body {
 #message .chat .text .sent h3 {
   color: white;
   margin-left: 12px;
+  cursor: pointer;
 }
 #message .end {
   display: flex;
   justify-content: flex-end;
-}
-
-#apple {
-  padding: 70px 0;
-  height: 800px;
-  background-repeat: no repeat;
-  background-position: center center;
-}
-#apple .box {
-  border: 7px solid #d3d009;
-  padding-bottom: 10px;
-  background-color: #c82727;
-  width: 400px;
-  height: 590px;
-}
-#apple .box h1 {
-  margin: 30px 0;
-  font-size: 40px;
-  font-weight: 700;
-  color: #ffe600;
-}
-#apple .box h1 input {
-  border-radius: 20px;
-}
-#apple .box .btn {
-  margin: 20px 0;
-  border: 5px solid #c69b0f;
-  background-color: white;
-  color: #aa2121;
-  font-size: 18px;
-  font-weight: 700;
-}
-#apple .box h2 {
-  color: white;
-  font-size: 25px;
-  background-color: white;
 }/*# sourceMappingURL=style.css.map */
