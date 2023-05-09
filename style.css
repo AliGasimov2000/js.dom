@@ -1,4 +1,141 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+#message {
+  padding: 60px 0;
+}
+#message .chat {
+  border: 1px solid rgba(156, 173, 209, 0.5019607843);
+  background-color: rgba(156, 173, 209, 0.5019607843);
+  border-radius: 20px;
+  padding: 25px;
+  width: 100%;
+}
+#message .chat .message {
+  padding: 10px;
+  height: 40vh;
+  overflow: auto;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: white;
+}
+#message .chat .message .line {
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: #829fd7;
+  padding: 8px;
+  border-radius: 20px;
+  color: white;
+  text-align: start;
+  max-width: 50%;
+}
+#message .chat .message .line h3 {
+  color: white;
+}
+#message .chat .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#message .chat .text input {
+  border: 2px solid #474747;
+  border-radius: 30px;
+}
+#message .chat .text .sent {
+  background-color: #829fd7;
+  color: white;
+  width: 70px;
+  padding: 8px;
+  border-radius: 18px;
+  margin: 10px;
+}
+#message .chat .text .sent h3 {
+  color: white;
+  margin-left: 12px;
+}
+#message .end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#weather {
+  padding: 70px 0;
+  background-image: url(https://www.infoplease.com/sites/infoplease.com/files/inline-images/planet_earth_world_satellite_image_mural_lg__67844.1560514766%281%29_0.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no repeat;
+  height: 800px;
+}
+#weather .box {
+  height: 450px;
+  width: 500px;
+  color: #ffffff;
+  background-color: #1d42b1;
+  border-radius: 20px;
+}
+#weather .box .data h1, #weather .box .data h2 {
+  margin: 20px 0;
+  font-size: 25px;
+  font-style: italic;
+}
+#weather .box .data input {
+  border: 3px solid #f9cf46;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+#weather ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 45px;
+}
+#weather ul .icon {
+  color: white;
+  font-size: 40px;
+}
+#weather .btn {
+  margin-top: 10px;
+  background-color: #f1d524;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+}
+
+#apple {
+  padding: 70px 0;
+  height: 800px;
+  background-repeat: no repeat;
+  background-position: center center;
+}
+#apple .box {
+  border: 7px solid #d3d009;
+  padding-bottom: 10px;
+  background-color: #c82727;
+  width: 400px;
+  height: 590px;
+}
+#apple .box h1 {
+  margin: 30px 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffe600;
+}
+#apple .box h1 input {
+  border-radius: 20px;
+}
+#apple .box .btn {
+  margin: 20px 0;
+  border: 5px solid #c69b0f;
+  background-color: white;
+  color: #aa2121;
+  font-size: 18px;
+  font-weight: 700;
+}
+#apple .box h2 {
+  color: white;
+  font-size: 25px;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
