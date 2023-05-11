@@ -11,15 +11,18 @@ body {
   background-color: rgba(175, 199, 255, 0.3411764706);
   border-radius: 20px;
   padding: 25px;
-  width: 100%;
+  width: 500px;
 }
 #message .chat .message {
   padding: 10px;
   height: 40vh;
-  overflow: auto;
+  overflow: hidden;
   border: 1px solid white;
   border-radius: 20px;
   background-color: white;
+}
+#message .chat .message::-webkit-scrollbar {
+  display: none;
 }
 #message .chat .message .line {
   display: inline-block;
