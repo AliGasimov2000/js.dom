@@ -16,7 +16,7 @@ body {
 #message .chat .message {
   padding: 10px;
   height: 40vh;
-  overflow: hidden;
+  overflow: auto;
   border: 1px solid white;
   border-radius: 20px;
   background-color: white;
@@ -63,4 +63,9 @@ body {
 #message .end {
   display: flex;
   justify-content: flex-end;
+}
+@media screen and (max-width: 768px) {
+  #message .chat {
+    margin: 20px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
